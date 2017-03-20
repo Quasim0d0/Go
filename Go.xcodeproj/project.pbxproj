@@ -14,6 +14,8 @@
 		EACB2CCC1E778C91000062B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACB2CCA1E778C91000062B7 /* LaunchScreen.storyboard */; };
 		EACB2CD71E778C91000062B7 /* GoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB2CD61E778C91000062B7 /* GoTests.swift */; };
 		EACB2CE21E778C92000062B7 /* GoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB2CE11E778C92000062B7 /* GoUITests.swift */; };
+		EACB2CF31E77BBFD000062B7 /* go-black.png in Resources */ = {isa = PBXBuildFile; fileRef = EACB2CF11E77BBFD000062B7 /* go-black.png */; };
+		EACB2CF41E77BBFD000062B7 /* go-white.png in Resources */ = {isa = PBXBuildFile; fileRef = EACB2CF21E77BBFD000062B7 /* go-white.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		EACB2CDD1E778C92000062B7 /* GoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACB2CE11E778C92000062B7 /* GoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoUITests.swift; sourceTree = "<group>"; };
 		EACB2CE31E778C92000062B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACB2CF11E77BBFD000062B7 /* go-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-black.png"; sourceTree = "<group>"; };
+		EACB2CF21E77BBFD000062B7 /* go-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-white.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				EACB2CC31E778C91000062B7 /* ViewController.swift */,
 				EACB2CC51E778C91000062B7 /* Main.storyboard */,
 				EACB2CC81E778C91000062B7 /* Assets.xcassets */,
+				EACB2CF11E77BBFD000062B7 /* go-black.png */,
+				EACB2CF21E77BBFD000062B7 /* go-white.png */,
 				EACB2CCA1E778C91000062B7 /* LaunchScreen.storyboard */,
 				EACB2CCD1E778C91000062B7 /* Info.plist */,
 			);
@@ -232,9 +238,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACB2CF41E77BBFD000062B7 /* go-white.png in Resources */,
 				EACB2CCC1E778C91000062B7 /* LaunchScreen.storyboard in Resources */,
 				EACB2CC91E778C91000062B7 /* Assets.xcassets in Resources */,
 				EACB2CC71E778C91000062B7 /* Main.storyboard in Resources */,
+				EACB2CF31E77BBFD000062B7 /* go-black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +513,7 @@
 				EACB2CE81E778C92000062B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EACB2CE91E778C92000062B7 /* Build configuration list for PBXNativeTarget "GoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				EACB2CEB1E778C92000062B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EACB2CEC1E778C92000062B7 /* Build configuration list for PBXNativeTarget "GoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				EACB2CEE1E778C92000062B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
